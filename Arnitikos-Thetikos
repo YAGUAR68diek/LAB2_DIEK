@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+int main(){
+	int a;
+cin>>a;
+cout<<"dose arithmo a: "<<endl;
+
+if (a < 0) {
+  cout << "Arnitikos";
+} else if (a > 0) {
+  cout << "Thetikos";
+} else {
+  cout << "a=0";
+}
+
+}
